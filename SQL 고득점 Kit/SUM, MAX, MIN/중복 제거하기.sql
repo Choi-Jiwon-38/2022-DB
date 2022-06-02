@@ -1,0 +1,3 @@
+SELECT COUNT(DISTINCT NAME) 'count'
+FROM ANIMAL_INS
+-- NULL과 중복되는 값 모두 지워짐 (DISTINCT)
